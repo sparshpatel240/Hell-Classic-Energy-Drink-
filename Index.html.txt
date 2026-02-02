@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hell Classic Energy Drink - Wholesale</title>
+  <style>
+    /* Reset & base */
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0a0a0a;
+      color: #eee;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+    a {
+      color: #d32f2f;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    a:hover, a:focus {
+      color: #ff4b4b;
+      outline: none;
+    }
+    header {
+      background-color: #d32f2f;
+      padding: 30px 20px;
+      font-size: 2.5rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgb(211 47 47 / 60%);
+      user-select: none;
+    }
+    main {
+      max-width: 960px;
+      margin: 40px auto 60px;
+      padding: 0 20px;
+    }
+    .product-images {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-bottom: 40px;
+    }
+    .product-images img {
+      max-width: 280px;
+      width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 0 30px #d32f2f;
+      transition: transform 0.3s ease;
+      background: #111;
+    }
+    .product-images img:hover,
+    .product-images img:focus {
+      transform: scale(1.05);
+      outline: none;
+      box-shadow: 0 0 40px #ff4b4b;
+    }
+    h2 {
+      text-align: center;
+      font-weight: 700;
+      margin-bottom: 20px;
+      letter-spacing: 2px;
+      color: #e53935;
+    }
+    .description {
+      font-size: 1.2rem;
+      text-align: center;
+      margin-bottom: 40px;
+      max-width: 720px;
+      margin-left: auto;
+      margin-right: auto;
+      color: #ccc;
+    }
+    .prices {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      flex-wrap: wrap;
+      margin-bottom: 60px;
+    }
+    .price-card {
+      background: #1c1c1c;
+      padding: 25px 20px;
+      border-radius: 12px;
+      width: 180px;
+      max-width: 100%;
+      box-shadow: 0 6px 20px rgb(211 47 47 / 40%);
+      text-align: center;
+      transition: transform 0.3s ease;
+      user-select: none;
+    }
+    .price-card:hover,
+    .price-card:focus-within {
+      transform: translateY(-6px);
+      box-shadow: 0 8px 30px rgb(255 75 75 / 80%);
+      outline: none;
+    }
+    .price-card h3 {
+      margin: 0 0 10px;
+      font-weight: 700;
+      color: #f44336;
+    }
+    .price-card p {
+      font-size: 1.4rem;
+      margin: 8px 0 22px;
+      font-weight: 900;
+      color: #fff;
+    }
+    .btn-buy {
+      background-color: #d32f2f;
+      border: none;
+      border-radius: 30px;
+      color: white;
+      padding: 12px 26px;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      width: 100%;
+      user-select: none;
+    }
+    .btn-buy:hover,
+    .btn-buy:focus {
+      background-color: #ff4b4b;
+      outline: none;
+    }
+    section.contact {
+      max-width: 480px;
+      margin: 0 auto 40px;
+      background: #111;
+      border-radius: 12px;
+      padding: 22px 26px;
+      box-shadow: 0 5px 20px rgb(255 75 75 / 30%);
+      user-select: none;
+    }
+    section.contact h2 {
+      margin-top: 0;
+      color: #f44336;
+    }
+    .contact-info {
+      margin-bottom: 20px;
+      font-size: 1.1rem;
+      color: #ddd;
+      line-height: 1.6;
+    }
+    .contact-info a {
+      display: inline-block;
+      margin-top: 6px;
+      word-break: break-word;
+    }
+    form label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 600;
+      color: #e53935;
+    }
+    form input[type="text"],
+    form input[type="email"],
+    form textarea {
+      width: 100%;
+      padding: 10px 14px;
+      margin-bottom: 16px;
+      border-radius: 6px;
+      border: none;
+      font-size: 1rem;
+      resize: vertical;
+      font-family: inherit;
+    }
+    form textarea {
+      min-height: 100px;
+    }
+    form button {
+      background-color: #d32f2f;
+      border: none;
+      border-radius: 30px;
+      color: white;
+      padding: 12px 0;
+      font-size: 1.1rem;
+      font-weight: 700;
+      cursor: pointer;
+      width: 100%;
+      user-select: none;
+      transition: background-color 0.3s ease;
+    }
+    form button:hover,
+    form button:focus {
+      background-color: #ff4b4b;
+      outline: none;
+    }
+    footer {
+      background-color: #111;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.9rem;
+      color: #666;
+      user-select: none;
+    }
+    @media (max-width: 600px) {
+      .prices {
+        flex-direction: column;
+        gap: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>HELL Classic Energy Drink - Wholesale</header>
+
+  <main>
+    <section class="product-images" aria-label="Product images of Hell Classic Energy Drink">
+      <img src="https://i.imgur.com/xn6sN6A.png" alt="Hell Classic Energy Drink Can" />
+      <img src="https://i.imgur.com/dtxRoQe.jpg" alt="Hell Classic Energy Drink Can with fiery background" />
+    </section>
+
+    <section class="description" aria-label="Product Description">
+      <h2>About the Product</h2>
+      <p>
+        HELL Classic Energy Drink is powered with vital vitamins B2, B3, B6, and B12 to boost your energy and keep you refreshed.
+        Available in a convenient 250ml can, it's a perfect choice for retailers and wholesalers who want to offer a classic, bold energy drink to customers.
+      </p>
+    </section>
+
+    <section class="prices" aria-label="Wholesale Price Options">
+      <div class="price-card" tabindex="0">
+        <h3>Single Can</h3>
+        <p>$2.50</p>
+        <button type="button" class="btn-buy" onclick="handleBuy('Single Can')">Add to Cart</button>
+      </div>
+      <div class="price-card" tabindex="0">
+        <h3>Pack of 6</h3>
+        <p>$14.00</p>
+        <button type="button" class="btn-buy" onclick="handleBuy('Pack of 6')">Add to Cart</button>
+      </div>
+      <div class="price-card" tabindex="0">
+        <h3>Pack of 12</h3>
+        <p>$26.00</p>
+        <button type="button" class="btn-buy" onclick="handleBuy('Pack of 12')">Add to Cart</button>
+      </div>
+    </section>
+
+    <section class="contact" aria-label="Contact Information and Inquiry Form">
+      <h2>Contact Us</h2>
+      <p class="contact-info">
+        Wholesale Inquiries<br />
+        Phone: <a href="tel:+919825082505">98250 82505</a> <br />
+        Email: <a href="mailto:sparshpatel240@gmail.com">sparshpatel240@gmail.com</a>
+      </p>
+      <form onsubmit="submitInquiry(event)" aria-label="Wholesale Inquiry Form">
+        <label for="name">Your Name*</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required />
+        
+        <label for="email">Your Email*</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required />
+        
+        <label for="message">Message*</label>
+        <textarea id="message" name="message" placeholder="Tell us your inquiry" required></textarea>
+        
+        <button type="submit">Send Inquiry</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2024 Hell Energy Wholesale. All rights reserved.
+  </footer>
+
+  <script>
+    function handleBuy(item) {
+      alert(`Thank you for showing interest in "${item}".\nPlease contact us directly to place an order.`);
+    }
+
+    function submitInquiry(event) {
+      event.preventDefault();
+      const name = event.target.name.value.trim();
+      const email = event.target.email.value.trim();
+      const message = event.target.message.value.trim();
+
+      if(name && email && message) {
+        // Compose mailto link with prefilled subject and body
+        const subject = encodeURIComponent('Wholesale Inquiry from ' + name);
+        const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\nMessage:\n${message}`);
+        const mailto = `mailto:sparshpatel240@gmail.com?subject=${subject}&body=${body}`;
+        window.location.href = mailto;
+      } else {
+        alert('Please fill all required fields.');
+      }
+    }
+  </script>
+</body>
+</html>
